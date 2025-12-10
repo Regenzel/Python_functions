@@ -1,5 +1,6 @@
-def saludar(name: str):
+def greeting():
     '''Recibe una cadena y devuelve un saludo para un nombre personalizado'''
-    print("Hola " + name + "," + " ¿Como estas?")
+    name = input("Ingrese su nombre: ")
+    return print("Hola " + name)
 
-saludar("Ivan")
+greeting()
