@@ -1,6 +1,7 @@
 from datetime import date
 
 def how_much_for_retirement():
+    '''Recibe pidiendo al usuario que edad tiene y a que edad se jubilará, y devuelve los años que le quedan para jubilarse.'''
     year = input("¿Cuantos años tienes?: ")
     when_you_retire = input ("¿A que edad te jubilaras?: ")
     actual_year = date.today().year
